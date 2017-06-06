@@ -33,7 +33,7 @@ public class AnagramCPD {
 			}
 		}
 		
-		void bar() {
+		void bar1() {
 			for (;true;);
 		}
 	public static void main(String[] args) {
@@ -41,4 +41,20 @@ public class AnagramCPD {
 	     System.out.println("Debit Card and Bad Credit is anagram? - " + AnagramCPD.validate("Debit Card", "Bad Credit"));
 	    System.out.println("Охренеть and Не хрена себе is anagram? - " + AnagramCPD.validate("Охренеть", "Не хрена себе"));
 	       }
+	
+	public void foo1()  {
+		
+		for (int i = 0; i < 10; i++) {
+				
+			for (int k = 0; k < 20; i++) {
+					
+					System.out.println("Hello");
+					
+				}
+			}
+		}
+		
+		void bar() {
+			for (;true;);
+		}
 }
